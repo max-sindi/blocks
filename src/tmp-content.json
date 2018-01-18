@@ -6,7 +6,7 @@
       "title": "Service 1",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.",
       "picture": {
-        "src": "img_ice-cream.png",
+        "src": "Depositphotos_146804477_original.png",
         "alt": "Service illustration photo"
       }
     },
@@ -15,7 +15,7 @@
       "title": "Service 2",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.",
       "picture": {
-        "src": "img_coconut.png",
+        "src": "Depositphotos_150504326_original.png",
         "alt": "Service illustration photo"
       }
     },
@@ -24,7 +24,7 @@
       "title": "Service 3",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.",
       "picture": {
-        "src": "img_donut.png",
+        "src": "Depositphotos_159638720_original.png",
         "alt": "Service illustration photo"
       }
     },
@@ -33,7 +33,7 @@
       "title": "Service 4",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.",
       "picture": {
-        "src": "img_banana.png",
+        "src": "Depositphotos_169507418_original.png",
         "alt": "Service illustration photo"
       }
     }
