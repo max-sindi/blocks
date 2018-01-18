@@ -1,3 +1,18 @@
 @import "wireframe-zapdos-services/src/style.css";
 
 /* start here */
+
+@media (min-width: 992px) {
+  .section__header {
+    margin-bottom: 60px;
+  }
+}
+
+.article {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.article__picture {
+  padding-top: 100%;
+}
