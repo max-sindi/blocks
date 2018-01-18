@@ -3,11 +3,6 @@
 /* start here */
 .section {
   background-color: var(--ui-media-bg);
-
-  &__header {
-    margin-top: 20px;
-    margin-bottom: 50px;
-  }
 }
 
 .title {
@@ -16,11 +11,8 @@
 
 .article {
   text-align: center;
-  margin-bottom: 18px;
 
-  &__picture-wrapper {
-    margin-bottom: 25px;
-  }
+  
 
   &__picture {
     padding-top: 100%;
@@ -35,4 +27,21 @@
   font-family: var(--ui-small-text-font-family);
   font-weight: var(--ui-small-text-font-weight);
   line-height: var(--ui-small-text-line-height);
+}
+
+@media (min-width: 992px) {
+  .section__header {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .article {
+    flex-basis: 25%;
+    max-width: 25%;
+    margin-bottom: 18px;
+
+    &__picture-wrapper {
+      margin-bottom: 25px;
+    }
+  }
 }
