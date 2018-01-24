@@ -1,3 +1,27 @@
 @import "wireframe-zapdos-awards/src/style.css";
 
-/* start here */
+.item__picture-wrapper {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item__picture {
+  padding: 0;
+  width: 64px;
+  height: 73px;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item__image {
+  position: static;
+  width: auto;
+  height: auto;
+  object-fit: none;
+  left: inherit;
+  top: inherit;
+}
