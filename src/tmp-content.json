@@ -1,3 +1,50 @@
 {
-  "title": "Design title"
+  "title": "Awards",
+  "subtitle": "The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence, and upturning of the natural chain of.",
+  "cta": {
+    "actionConfig": {
+      "action": "link",
+      "actions": {
+        "link": {
+          "type": "",
+          "innerPage": "",
+          "url": ""
+        }
+      }
+    },
+    "textValue": "Main button (L)"
+  },
+  "awards": [
+    {
+      "id": "8130928a-e7c6-4e26-a3ca-a820fa36380e",
+      "title": "America's Most Admired Corporations",
+      "picture": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='52' height='72' viewBox='0 0 52 72'><image id='noun_89037' width='52' height='72' xlink:href='data:img/png;base64,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'/></svg>"
+      }
+    },
+    {
+      "id": "057c27bf-4977-4b28-bf35-f4a6db60d5aa",
+      "title": "100 Best Companies",
+      "picture": {
+        "src": "https://www.vms.ro/wp-content/uploads/2015/04/mobius-placeholder-2.png",
+        "alt": "Award illustration photo"
+      }
+    },
+    {
+      "id": "c8e93041-896b-4b78-b8d0-37e21a79070f",
+      "title": "Best Places to Work for LGBT Equality",
+      "picture": {
+        "src": "https://www.vms.ro/wp-content/uploads/2015/04/mobius-placeholder-2.png",
+        "alt": "Award illustration photo"
+      }
+    },
+    {
+      "id": "3ea9fdda-c0e6-418e-9bfe-7bf1b06a534d",
+      "title": "2017 Employer Support Freedom Award",
+      "picture": {
+        "src": "https://www.vms.ro/wp-content/uploads/2015/04/mobius-placeholder-2.png",
+        "alt": "Award illustration photo"
+      }
+    }
+  ]
 }
