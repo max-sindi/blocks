@@ -47,5 +47,9 @@
         "alt": "Award illustration photo"
       }
     }
-  ]
+  ],
+  "background": {
+    "type": "color",
+    "color": "transparent"
+  }
 }

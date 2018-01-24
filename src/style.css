@@ -1,16 +1,41 @@
 @import "wireframe-zapdos-awards/src/style.css";
 
+.title {
+  font-size: var(--ui-block-title-size);
+  line-height: var(--ui-block-title-line-height);
+  font-family: var(--ui-block-title-font-family);
+  font-weight: var(--ui-block-title-font-weight);
+  color: var(--ui-dark-shade-color);
+}
+
+.subtitle {
+  font-size: var(--ui-subtitle-size);
+  line-height: var(--ui-subtitle-line-height);
+  font-family: var(--ui-subtitle-font-family);
+  font-weight: var(--ui-subtitle-font-weight);
+  color: #a3a4a5;
+  margin-top: 35px;
+}
+
+.item__title {
+  font-size: var(--ui-subtitle-size);
+  line-height: var(--ui-subtitle-line-height);
+  font-family: var(--ui-subtitle-font-family);
+  font-weight: var(--ui-subtitle-font-weight);
+  color: var(--ui-dark-shade-color);
+}
+
 .item__picture-wrapper {
-  height: 160px;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100px;
 }
 
 .item__picture {
   padding: 0;
-  width: 64px;
-  height: 73px;
+  width: 100%;
+  height: 100%;
   background: none;
   display: flex;
   align-items: center;
@@ -19,9 +44,44 @@
 
 .item__image {
   position: static;
-  width: auto;
-  height: auto;
-  object-fit: none;
+  max-width: 100%;
+  object-fit: inherit;
   left: inherit;
   top: inherit;
+  display: block;
+}
+
+.item:nth-child(1) img {
+  width: 53px;
+  height: 44px;
+}
+
+.item:nth-child(2) img {
+  width: 52px;
+  height: 72px;
+}
+
+.item:nth-child(3) img {
+  width: 64px;
+  height: 50px;
+}
+
+.item:nth-child(4) img {
+  width: 53px;
+  height: 73px;
+}
+
+.btns-group {
+  margin-top: 50px;
+}
+
+.button {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 992px) {
+  .subtitle {
+    max-width: 900px;
+  }
 }
