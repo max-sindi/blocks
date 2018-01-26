@@ -41,17 +41,19 @@
 
 @media (min-width: 992px) {
   .section__header {
-    margin-top: 20px;
-    margin-bottom: 51px;
+    margin: 20px 0;
   }
 
   .article {
     flex-basis: 25%;
     max-width: 25%;
-    margin-bottom: 18px;
 
     &__picture-wrapper {
       margin-bottom: 23px;
     }
+  }
+
+  .btns-group {
+    margin-top: -40px;
   }
 }
