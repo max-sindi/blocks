@@ -1,10 +1,6 @@
 @import "wireframe-zapdos-services/src/style.css";
 
 /* start here */
-.section {
-  background-color: var(--ui-media-bg);
-}
-
 .title {
   letter-spacing: -0.8px;
 }
@@ -25,18 +21,6 @@
     padding: 0 15px;
     letter-spacing: -0.2px;
   }
-}
-
-.button {
-  margin-bottom: 25px;
-  padding: 0 30px;
-  text-transform: uppercase;
-  font-size: var(--ui-small-text-size);
-  font-family: var(--ui-small-text-font-family);
-  font-weight: var(--ui-small-text-font-weight);
-  line-height: 36px;
-  letter-spacing: -0.3px;
-  border-color: #d0d0d0;
 }
 
 @media (min-width: 992px) {
