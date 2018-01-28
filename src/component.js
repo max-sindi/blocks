@@ -185,7 +185,7 @@ Block.modifierScheme = [
     id: 'title-punctuation-decorator',
     type: 'hidden',
     label: 'Title punctuation decorator',
-    defaultValue: true,
+    defaultValue: false,
   },
 ]
 
