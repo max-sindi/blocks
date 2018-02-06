@@ -1,3 +1,43 @@
 @import "wireframe-zapdos-services/src/style.css";
 
 /* start here */
+.title {
+  letter-spacing: -0.8px;
+}
+
+.article {
+  text-align: center;
+
+  &__picture {
+    padding-top: 100%;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+    letter-spacing: -0.2px;
+  }
+
+  &__text {
+    padding: 0 15px;
+    letter-spacing: -0.2px;
+  }
+}
+
+@media (min-width: 992px) {
+  .section__header {
+    margin: 20px 0;
+  }
+
+  .article {
+    flex-basis: 25%;
+    max-width: 25%;
+
+    &__picture-wrapper {
+      margin-bottom: 23px;
+    }
+  }
+
+  .btns-group {
+    margin-top: -40px;
+  }
+}
