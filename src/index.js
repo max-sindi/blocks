@@ -19,28 +19,28 @@ ExtendedWireframe.defaultContent = {
     {
       ...Component.defaultContent.awards[0],
       picture: {
-        src: '1.png',
+        resourceRef: '1.png',
         alt: 'Award illustration photo',
       },
     },
     {
       ...Component.defaultContent.awards[1],
       picture: {
-        src: '2.png',
+        resourceRef: '2.png',
         alt: 'Award illustration photo',
       },
     },
     {
       ...Component.defaultContent.awards[2],
       picture: {
-        src: '3.png',
+        resourceRef: '3.png',
         alt: 'Award illustration photo',
       },
     },
     {
       ...Component.defaultContent.awards[3],
       picture: {
-        src: '4.png',
+        resourceRef: '4.png',
         alt: 'Award illustration photo',
       },
     },
