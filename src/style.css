@@ -1,9 +1,5 @@
 @import "wireframe-zapdos-awards/src/style.css";
 
-.title {
-  color: var(--ui-dark-shade-color);
-}
-
 .subtitle {
   color: #a3a4a5;
   margin-top: 35px;
@@ -15,10 +11,6 @@
 
 .item__title {
   font-size: calc(var(--ui-heading-size) * 0.77);
-  line-height: var(--ui-heading-line-height);
-  font-family: var(--ui-heading-font-family);
-  font-weight: 500;
-  color: var(--ui-heading-color);
 }
 
 .item__picture-wrapper {
@@ -69,10 +61,4 @@
 
 .btns-group {
   margin-top: 50px;
-}
-
-.button {
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 11px;
 }
