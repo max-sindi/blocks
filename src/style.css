@@ -35,7 +35,8 @@
 .item__image {
   position: static;
   max-width: 100%;
-  object-fit: unset;
+  max-height: 50px;
+  object-fit: contain;
   left: inherit;
   top: inherit;
   display: block;
