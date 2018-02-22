@@ -18,19 +18,18 @@
 }
 
 .item__picture-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
+  text-align: center;
 }
 
 .item__picture {
+  display: inline-block;
+  position: relative;
   width: auto;
-  padding: 0;
-  background: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  max-width: 100%;
+  padding-top: 0;
+  background-color: transparent;
+  height: 50px;
+  overflow: hidden;
 }
 
 .item__image {
